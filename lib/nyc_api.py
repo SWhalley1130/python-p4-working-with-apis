@@ -20,6 +20,9 @@ class GetPrograms:
 
         return programs_list
 
+# programs = GetPrograms.get_programs()
+# print(programs)
+
 programs = GetPrograms()
 programs_schools = programs.program_school()
 
